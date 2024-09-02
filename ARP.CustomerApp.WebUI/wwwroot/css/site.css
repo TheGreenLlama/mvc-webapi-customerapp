@@ -1,0 +1,52 @@
+/*
+    I normally use a JS project to run gulp tasks for sass compilation but this task is supposed to take up to 2 hours. I'm not /that/ quick!
+*/
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 60px;
+  background-color: #dddddd;
+}
+
+.table-items-vcentred td, th {
+    vertical-align: middle;
+}
+
+.main-content {
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 20px 20px;
+    padding: 15px;
+}
+
+h1 {
+    background-color: steelblue;
+    color: white;
+    margin: 15px 0;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 20px 20px;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+.form-label, th {
+    color: steelblue;
+    font-weight: bold;
+}
